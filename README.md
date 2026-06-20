@@ -1,6 +1,6 @@
 # PILOT: Anomaly-Retentive Spacecraft Telemetry Recovery
 
-This repository provides the public PyTorch implementation of **PILOT: An Innovation-Separable Hybrid Networked Observer for Anomaly-Retentive Reconstruction of Intermittent Spacecraft Telemetry**.
+This repository provides the public PyTorch implementation of **A-Novel-Network-Observer-for-Telemetry-Link-Reconstruction**.
 
 PILOT reconstructs intermittent multivariate spacecraft telemetry under irregular link loss while preserving anomaly evidence. The released code focuses on the proposed method and its ablation variants:
 
@@ -144,7 +144,7 @@ The main implementation is in `pilot_recovery/models/pilot.py`:
 
 ## Citation
 
-If this code helps your research, please cite the associated PILOT paper. A `CITATION.cff` file is included and should be updated with the final publication metadata after acceptance.
+This paper is currently under review. The citation metadata for the final publication will be updated after acceptance.
 
 ## License
 
