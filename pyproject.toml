@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pilot-telemetry-recovery"
+version = "0.1.0"
+description = "PILOT: anomaly-retentive reconstruction of intermittent spacecraft telemetry"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "PILOT Authors"}]
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "openpyxl>=3.1",
+    "matplotlib>=3.6",
+    "torch>=2.0",
+    "PyYAML>=6.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["pilot_recovery*"]

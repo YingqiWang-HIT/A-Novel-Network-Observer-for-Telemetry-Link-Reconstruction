@@ -1,0 +1,6 @@
+# PILOT full model and three ablation variants.
+run_model_names:
+  - PILOT-Temporal
+  - PILOT-w/o-Graph
+  - PILOT-w/o-Separator
+  - PILOT-Full

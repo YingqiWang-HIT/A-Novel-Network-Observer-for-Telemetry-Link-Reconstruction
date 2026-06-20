@@ -1,0 +1,33 @@
+# Default configuration for PILOT telemetry recovery.
+excel_path: data/example.xlsx
+sheet_name: 0
+first_col_is_time: true
+output_dir: outputs/pilot_results
+
+seq_len: 96
+pred_len: 12
+train_ratio: 0.70
+val_ratio: 0.10
+
+point_missing_rate: 0.05
+num_channel_blocks: 25
+channel_block_min_len: 4
+channel_block_max_len: 24
+num_system_blocks: 8
+system_block_min_len: 4
+system_block_max_len: 20
+
+top_k_graph: 6
+graph_threshold: 0.05
+subsystem_count: 4
+
+epochs: 260
+batch_size: 128
+lr: 0.0005
+weight_decay: 0.0001
+patience: 45
+amp: true
+use_gpu: true
+
+run_model_names:
+  - PILOT-Full

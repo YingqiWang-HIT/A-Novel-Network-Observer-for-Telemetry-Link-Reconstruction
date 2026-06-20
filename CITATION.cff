@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "PILOT: An Innovation-Separable Hybrid Networked Observer for Anomaly-Retentive Reconstruction of Intermittent Spacecraft Telemetry"
+message: "If you use this repository, please cite the associated paper."
+authors:
+  - family-names: Wang
+    given-names: Yingqi
+year: 2026
+version: 0.1.0
